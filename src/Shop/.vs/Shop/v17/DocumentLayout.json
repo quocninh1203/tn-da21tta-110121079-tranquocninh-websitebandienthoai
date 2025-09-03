@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\KLTN\\Back\\Shop\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0E78C5D0-6C9E-454C-8228-EAF833F96FE7}|Shop.Application\\Shop.Application.csproj|d:\\kltn\\back\\shop\\shop.application\\handlers\\phones\\recommendhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E78C5D0-6C9E-454C-8228-EAF833F96FE7}|Shop.Application\\Shop.Application.csproj|solutionrelative:shop.application\\handlers\\phones\\recommendhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E78C5D0-6C9E-454C-8228-EAF833F96FE7}|Shop.Application\\Shop.Application.csproj|d:\\kltn\\back\\shop\\shop.application\\services\\ml\\recommendationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E78C5D0-6C9E-454C-8228-EAF833F96FE7}|Shop.Application\\Shop.Application.csproj|solutionrelative:shop.application\\services\\ml\\recommendationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E78C5D0-6C9E-454C-8228-EAF833F96FE7}|Shop.Application\\Shop.Application.csproj|d:\\kltn\\back\\shop\\shop.application\\extension\\phoneextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E78C5D0-6C9E-454C-8228-EAF833F96FE7}|Shop.Application\\Shop.Application.csproj|solutionrelative:shop.application\\extension\\phoneextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{5a4e9529-b6a0-46b5-be4f-0f0b239bc0eb}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PhoneExtensions.cs",
+              "DocumentMoniker": "D:\\KLTN\\Back\\Shop\\Shop.Application\\Extension\\PhoneExtensions.cs",
+              "RelativeDocumentMoniker": "Shop.Application\\Extension\\PhoneExtensions.cs",
+              "ToolTip": "D:\\KLTN\\Back\\Shop\\Shop.Application\\Extension\\PhoneExtensions.cs",
+              "RelativeToolTip": "Shop.Application\\Extension\\PhoneExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T16:15:38.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RecommendHandler.cs",
+              "DocumentMoniker": "D:\\KLTN\\Back\\Shop\\Shop.Application\\Handlers\\Phones\\RecommendHandler.cs",
+              "RelativeDocumentMoniker": "Shop.Application\\Handlers\\Phones\\RecommendHandler.cs",
+              "ToolTip": "D:\\KLTN\\Back\\Shop\\Shop.Application\\Handlers\\Phones\\RecommendHandler.cs",
+              "RelativeToolTip": "Shop.Application\\Handlers\\Phones\\RecommendHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T15:42:23.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RecommendationService.cs",
+              "DocumentMoniker": "D:\\KLTN\\Back\\Shop\\Shop.Application\\Services\\ML\\RecommendationService.cs",
+              "RelativeDocumentMoniker": "Shop.Application\\Services\\ML\\RecommendationService.cs",
+              "ToolTip": "D:\\KLTN\\Back\\Shop\\Shop.Application\\Services\\ML\\RecommendationService.cs",
+              "RelativeToolTip": "Shop.Application\\Services\\ML\\RecommendationService.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAwCsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T15:14:01.08Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

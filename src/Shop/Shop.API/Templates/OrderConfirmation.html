@@ -1,0 +1,108 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        .email-container {
+            max-width: 600px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            border: 1px solid #ddd;
+        }
+
+        h2 {
+            color: #2a2a2a;
+        }
+
+        ul.info {
+            list-style: none;
+            padding: 0;
+        }
+
+            ul.info li {
+                margin-bottom: 8px;
+            }
+
+        .items-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+            .items-table th, .items-table td {
+                border: 1px solid #ccc;
+                padding: 8px;
+            }
+
+            .items-table th {
+                background-color: #f1f1f1;
+            }
+
+        .footer {
+            font-size: 12px;
+            color: #888;
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .summary {
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
+            .summary p {
+                margin: 4px 0;
+            }
+    </style>
+</head>
+<body>
+    <div class="email-container">
+        <h2>NNHShop - Xác nhận đơn hàng</h2>
+        <p>Xin chào <strong>{{CustomerName}}</strong>,</p>
+        <p>Đơn hàng của bạn đã được đặt thành công với thông tin:</p>
+        <ul class="info">
+            <li><strong>Mã đơn hàng:</strong> {{OrderCode}}</li>
+            <li><strong>Ngày đặt hàng:</strong> {{OrderDate}}</li>
+            <li><strong>Địa chỉ giao hàng:</strong> {{Address}}</li>
+            <li><strong>Số điện thoại:</strong> {{PhoneNumber}}</li>
+            <li><strong>Hình thức thanh toán:</strong> {{PaymentMethod}}</li>
+            <li><strong>Trạng thái thanh toán:</strong> {{PaymentStatus}}</li>
+        </ul>
+
+        <h3>Chi tiết sản phẩm</h3>
+        <table class="items-table">
+            <thead>
+                <tr>
+                    <th>Sản phẩm</th>
+                    <th>Số lượng</th>
+                    <th>Đơn giá</th>
+                    <th>Thành tiền</th>
+                </tr>
+            </thead>
+            <tbody>
+                {{ItemsRows}}
+            </tbody>
+        </table>
+
+        <div class="summary">
+            <p><strong>Tổng giá trị sản phẩm:</strong> {{OrderTotal}}</p>
+            <p><strong>Phí vận chuyển:</strong> {{ShippingFee}}</p>
+            <p><strong>Phải thanh toán:</strong> {{TotalPrice}}</p>
+        </div>
+
+        <p>Cảm ơn bạn đã tin tưởng và mua sắm tại NNHShop!</p>
+        <div class="footer">
+            Đây là email tự động, vui lòng không trả lời lại.<br />
+            NNHShop - Hỗ trợ khách hàng: support@shop.com
+        </div>
+    </div>
+</body>
+</html>

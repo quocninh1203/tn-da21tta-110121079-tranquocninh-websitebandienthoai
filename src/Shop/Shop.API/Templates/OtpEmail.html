@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        .email-container {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            border: 1px solid #ccc;
+            max-width: 500px;
+            margin: auto;
+        }
+
+        .otp-box {
+            background-color: #f1f1f1;
+            padding: 15px;
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+            letter-spacing: 4px;
+            border: 2px dashed #333;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .footer {
+            font-size: 13px;
+            color: #888;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="email-container">
+        <h2>Xác nhận tài khoản của bạn</h2>
+        <p>Vui lòng sử dụng mã OTP bên dưới để xác thực tài khoản của bạn:</p>
+        <div class="otp-box">{{OTP}}</div>
+        <p>Mã có hiệu lực trong 5 phút.</p>
+        <div class="footer">
+            NinhShop - Cảm ơn bạn đã tin tưởng và sử dụng dịch vụ của chúng tôi.
+        </div>
+    </div>
+</body>
+</html>
